@@ -4,6 +4,18 @@
 # Will take a players name
 # Will keep track of each players score
 # decrease score
+class Player
+  attr_accessor :name, :score
+
+  def initialize(score, num)
+    @score = "#{score}/3"
+    @name = "Player #{num}"
+  end
+
+  def decrease_score
+    @score -= 1
+  end
+end
 
 # class Game 
 # This class handles the looping
@@ -20,6 +32,14 @@
 # Keep track of the right answer
 # check: boolean
 
+class Questions
+  def initialize
+    generate_num = rand(20)
+    puts generate_num
+  end
+  
+
+end
 
 
 

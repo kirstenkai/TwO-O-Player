@@ -3,4 +3,6 @@ require './math-game'
 
 binding.pry
 
-puts "Hello world!"
+p1 = Player.new(2, 1)
+puts p1.name
+puts p1.score
