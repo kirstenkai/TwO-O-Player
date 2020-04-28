@@ -1,9 +1,4 @@
 
-
-# class Players(name)
-# Will take a players name
-# Will keep track of each players score
-# decrease score
 class Player
   attr_accessor :name, :score
 
@@ -33,12 +28,13 @@ end
 # check: boolean
 
 class Questions
+  attr_accessor :question, :answer, :num_1, :num_2
   def initialize
-    generate_num = rand(20)
-    puts generate_num
+    num_1 = rand(21)
+    num_2 = rand(21)
+    @question = "What is #{num_1} + #{num_2}?"
+    @answer = num_1 + num_2
   end
-  
-
 end
 
 
