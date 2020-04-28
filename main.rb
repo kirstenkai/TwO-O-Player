@@ -1,13 +1,5 @@
 
 require './math-game'
-# class Game 
-# This class handles the looping
-# Keeps track of turns
-# This class could maintain the I/O of the players
-# keep track of players
-# If the answer is equal to the sum of the two numbers, then the player is correct
-# If the answer is not equal to the sum of the two numbers, then the player is wrong and their score goes down by one
-
 class Game
   player_1 = Player.new(3, 1)
   player_2 = Player.new(3, 2)
@@ -51,7 +43,3 @@ class Game
   end
 
 end
-
-# test = Questions.new()
-# puts test.question
-# puts test.answer

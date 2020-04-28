@@ -12,10 +12,7 @@ class Player
   end
 end
 
-# class Questions
-# Generate the questions
-# Keep track of the right answer
-# check: boolean
+
 class Questions
   attr_accessor :question, :answer, :num_1, :num_2
   def initialize
